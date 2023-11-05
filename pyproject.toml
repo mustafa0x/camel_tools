@@ -1,5 +1,6 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "camel_tools"
@@ -17,7 +18,7 @@ classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Environment :: Console",
     "Intended Audience :: Developers",
-    "Intended Audience :: Education",           
+    "Intended Audience :: Education",
     "Intended Audience :: Information Technpology",
     "Intended Audience :: Science/Research",
     "License :: OSI Approved :: MIT License",
@@ -25,10 +26,7 @@ classifiers = [
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
     "Topic :: Scientific/Engineering",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
     "Topic :: Scientific/Engineering :: Information Analysis",
